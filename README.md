@@ -15,3 +15,4 @@ Atualize o .env com seus dados de conexão
  php artisan db:seed
 
 Url para o Front-end em Angular 19
+https://github.com/rmartinsilva/AuthenticationPermissions-frontend
