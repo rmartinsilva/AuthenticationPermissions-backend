@@ -7,8 +7,11 @@ Instruções para Utilizar o Sistema
 Atualize o .env com seus dados de conexão
 
 //Cria o Bando de Dados
+
  php artisan migrate
 
 //Cria os registros iniciais do banco de dados
+
  php artisan db:seed
 
+Url para o Front-end em Angular 19
