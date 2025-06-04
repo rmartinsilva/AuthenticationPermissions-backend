@@ -4,6 +4,12 @@ O foco é ter grupos de usuários com permissões diferentes dentro de um sistem
 
 Instruções para Utilizar o Sistema
 
+Gerar token Jwt
+php artisan jwt:secret
+
+Gerar key Laravel
+php artisan key:generate
+
 Atualize o .env com seus dados de conexão
 
 //Cria o Bando de Dados
@@ -13,6 +19,10 @@ Atualize o .env com seus dados de conexão
 //Cria os registros iniciais do banco de dados
 
  php artisan db:seed
+
+ senha do administrador
+ login: admin
+ senha: 102030
 
 Url para o Front-end em Angular 19
 https://github.com/rmartinsilva/AuthenticationPermissions-frontend
